@@ -1,8 +1,8 @@
 while True: 
-    operator = input("Enter choice (+ - * /): ")
+    operator = input("Enter an operator (+ - * /): ")
 
-    num1 = float(input("Enter the 1st number: "))
-    num2 = float(input("Enter the 2nd number: "))
+    num1 = float(input("Enter your 1st number: "))
+    num2 = float(input("Enter your 2nd number: "))
 
     if operator == "+":
         result = num1 + num2
@@ -22,7 +22,7 @@ while True:
     else:
         print(f"{operator} in an invalid operator")
 
-    choice = input("Would you like to continue? (yes/no): ").lower()
+    choice = input("Would you like to try again? (yes/no): ").lower()
     if choice == "no":
         print("Thank you for using this calculator!")
     break
