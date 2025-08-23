@@ -22,7 +22,8 @@ while True:
     else:
         print(f"{operator} in an invalid operator")
 
-    choice = input("Would you like to try again? (yes/no): ").lower()
+    choice = input("Would you like to try it again? (yes/no): ").lower()
     if choice == "no":
-        print("Thank you for using this calculator!")
+        print("Thank you for using this calculator!♡")
     break
+
