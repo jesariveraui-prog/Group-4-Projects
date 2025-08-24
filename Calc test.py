@@ -5,13 +5,13 @@ while True:
             num1 = float(input("Enter your 1st number: "))
             break
         except ValueError:
-            print("That is not a valid number." )
+            print("Please enter a valid number." )
     while True:
         try:
             num2 = float(input("Enter your 2nd number: "))
             break
         except ValueError:
-            print("That is not a valid number." )
+            print("Please enter a valid number." )
     if operator == "+":
         result = num1 + num2
         print(round(result, 3))
@@ -30,8 +30,9 @@ while True:
     else:
         print(f"{operator} is an invalid operator")
 
-    choice = input("Would you like to try it again? (yes/no): ").lower()
+    choice = input("Would you like to solve again? (yes/no): ").lower()
     if choice == "no":
         print("Thank you for using this calculator!♡")
     break
+
 
