@@ -23,7 +23,7 @@ while True:
         print(round(result, 3))
     elif operator == "/":
         if num2 == 0:
-            print("Division by zero is not allowed. Please try another number.")
+            print("Division by 0 is not allowed. Please try another number.")
         else: 
             result = num1 / num2
             print(round(result, 3))
@@ -34,5 +34,6 @@ while True:
     if choice == "no":
         print("Thank you for using this calculator!♡")
     break
+
 
 
