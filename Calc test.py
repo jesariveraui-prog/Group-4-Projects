@@ -33,7 +33,8 @@ while True:
     choice = input("Would you like to solve again? (yes/no): ").lower()
     if choice == "no":
         print("Thank you for using this calculator!♡")
-    break
+        break
+
 
 
 
