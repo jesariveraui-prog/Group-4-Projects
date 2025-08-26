@@ -1,2 +1,2 @@
-# Python-Calculator
-Group 4 / ITE260
+# Group 4
+ITE260
