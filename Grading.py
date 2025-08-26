@@ -103,5 +103,6 @@ while True:
         print("Failed")
     choice = input("Would you like to calculate your grades again? (yes/no): ")
     if choice == "no":
-        print("Thank you for using this system.")
+        print("Edi wow")
         break
+
