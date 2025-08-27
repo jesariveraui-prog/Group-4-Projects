@@ -1,19 +1,19 @@
 while True:
     while True:
         try:
-            n1=float(input("Enter Marks in  Mathematics:"))
+            n1=float(input("Enter Marks in  General Mathematics:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            n2=float(input("Enter Marks in  Filipino:"))
+            n2=float(input("Enter Marks in Filipino:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            n3=float(input("Enter Marks in  Science:"))
+            n3=float(input("Enter Marks in  Earth and Life Science:"))
             break
         except ValueError:
             print("Please enter a valid number.")
@@ -31,13 +31,13 @@ while True:
             print("Please enter a valid number.")
     while True:
         try:
-            n6=float(input("Enter Marks in  Araling Panlipunan:"))
+            n6=float(input("Enter Marks in  Oral Communication:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            n7=float(input("Enter Marks in  Edukasyon sa Pagpapakatao:"))
+            n7=float(input("Enter Marks in  Contemporary Philippine Arts from the Regions:"))
             break
         except ValueError:
             print("Please enter a valid number.")
@@ -55,7 +55,7 @@ while True:
             print("Please enter a valid number.")
     while True:
         try:
-            n10=float(input("Enter Marks in  Political Science:"))
+            n10=float(input("Enter Marks in  Understanding Culture, Politics, and Society:"))
             break
         except ValueError:
             print("Please enter a valid number.")
@@ -79,30 +79,31 @@ while True:
 
     #Grading Line
     if percentage>=90:
-        print("A+")
+        print("Excellent work! You got an A+")
 
     elif percentage>=80:
-        print("A")
+        print("You're amazing! You got an A")
 
     elif percentage>=70:
-        print("B+")
+        print("Well done! You got B+")
 
     elif percentage>=60:
-        print("B")
+        print("Great job! You got a B")
 
     elif percentage>=50:
-        print("C+")
+        print("Good effort! You got a C+")
 
     elif percentage>=40:
-        print("C")
+        print("Well tried! You got a C")
 
     elif percentage>=30:
         print("D+")
 
     else:
-        print("Failed")
+        print("You failed. Better luck next time")
     choice = input("Would you like to calculate your grades again? (yes/no): ")
     if choice == "no":
-        print("Edi wow")
+        print("Okay, goodbye! Good luck with your studies!")
         break
+
 
