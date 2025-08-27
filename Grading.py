@@ -55,7 +55,7 @@ while True:
             print("Please enter a valid number.")
     while True:
         try:
-            sub10=float(input("Enter marks in  Politics"))
+            sub10=float(input("Enter marks in  Politics:"))
             break
         except ValueError:
             print("Please enter a valid number.")
@@ -74,7 +74,7 @@ while True:
     total=sub1+sub2+sub3+sub4+sub5+sub6+sub7+sub8+sub9+sub10+sub11+sub12
     print("The Sum is:", total)
 
-    percentage=(sum/1200)*100
+    percentage=(total/1200)*100
     print(f"The percentage is: {percentage:.2f}")
 
     #Grading Line
