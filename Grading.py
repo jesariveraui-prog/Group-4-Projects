@@ -1,73 +1,73 @@
 while True:
     while True:
         try:
-            sub1=float(input("Enter Marks in  General Mathematics:"))
+            sub1=float(input("Enter marks in  General Mathematics:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            sub2=float(input("Enter Marks in Filipino:"))
+            sub2=float(input("Enter marks in Filipino:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            sub3=float(input("Enter Marks in  Earth and Life Science:"))
+            sub3=float(input("Enter marks in  Earth and Life Science:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            sub4=float(input("Enter Marks in  Physical Education:"))
+            sub4=float(input("Enter marks in  Physical Education:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            sub5=float(input("Enter Marks in  Practical Research:"))
+            sub5=float(input("Enter marks in  Practical Research:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            sub6=float(input("Enter Marks in  Oral Communication:"))
+            sub6=float(input("Enter marks in  Oral Communication:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            sub7=float(input("Enter Marks in  Contemporary Philippine Arts from the Regions:"))
+            sub7=float(input("Enter marks in  Contemporary Philippine Arts from the Regions:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            sub8=float(input("Enter Marks in  Personal Development:"))
+            sub8=float(input("Enter marks in  Personal Development:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            sub9=float(input("Enter Marks in  Philosophy:"))
+            sub9=float(input("Enter marks in  Philosophy:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            sub10=float(input("Enter Marks in  Understanding Culture, Politics, and Society:"))
+            sub10=float(input("Enter marks in  Understanding Culture, Politics, and Society:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            sub11=float(input("Enter Marks in  Applied Economics:"))
+            sub11=float(input("Enter marks in  Applied Economics:"))
             break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
-            sub12=float(input("Enter Marks in  Reading and Writing:"))
+            sub12=float(input("Enter marks in  Reading and Writing:"))
             break
         except ValueError:
             print("Please enter a valid number.")
@@ -105,6 +105,7 @@ while True:
     if choice == "no":
         print("Okay, goodbye! Good luck with your studies!")
         break
+
 
 
 
