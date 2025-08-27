@@ -2,73 +2,109 @@ while True:
     while True:
         try:
             sub1=float(input("Enter marks in  General Mathematics:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
             sub2=float(input("Enter marks in Filipino:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
             sub3=float(input("Enter marks in  Earth and Life Science:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
             sub4=float(input("Enter marks in  Physical Education:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
             sub5=float(input("Enter marks in  Practical Research:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
             sub6=float(input("Enter marks in  Oral Communication:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
             sub7=float(input("Enter marks in  Contemporary Philippine Arts from the Regions:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
             sub8=float(input("Enter marks in  Personal Development:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
             sub9=float(input("Enter marks in  Philosophy:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
             sub10=float(input("Enter marks in  Politics:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
             sub11=float(input("Enter marks in  Applied Economics:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     while True:
         try:
             sub12=float(input("Enter marks in  Reading and Writing:"))
-            break
+            if sub1 < 0 or sub1 > 100:
+                print("Only enter a number between 0 - 100")
+            else:
+                break
         except ValueError:
             print("Please enter a valid number.")
     total=sub1+sub2+sub3+sub4+sub5+sub6+sub7+sub8+sub9+sub10+sub11+sub12
@@ -105,6 +141,7 @@ while True:
     if choice == "no":
         print("Okay, goodbye! Good luck with your studies!")
         break
+
 
 
 
