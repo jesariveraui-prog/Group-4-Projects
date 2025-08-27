@@ -55,7 +55,7 @@ while True:
             print("Please enter a valid number.")
     while True:
         try:
-            sub10=float(input("Enter marks in  Understanding Culture, Politics, and Society:"))
+            sub10=float(input("Enter marks in  Politics"))
             break
         except ValueError:
             print("Please enter a valid number.")
@@ -105,4 +105,5 @@ while True:
     if choice == "no":
         print("Okay, goodbye! Good luck with your studies!")
         break
+
 
