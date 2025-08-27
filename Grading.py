@@ -71,11 +71,11 @@ while True:
             break
         except ValueError:
             print("Please enter a valid number.")
-    sum=sub1+sub2+sub3+sub4+sub5+sub6+sub7+sub8+sub9+sub10+sub11+sub12
-    print("The Sum is:", sum)
+    total=sub1+sub2+sub3+sub4+sub5+sub6+sub7+sub8+sub9+sub10+sub11+sub12
+    print("The Sum is:", total)
 
     percentage=(sum/1200)*100
-    print("The percentage is:", percentage)
+    print(f"The percentage is: {percentage:.2f}")
 
     #Grading Line
     if percentage>=90:
@@ -105,6 +105,7 @@ while True:
     if choice == "no":
         print("Okay, goodbye! Good luck with your studies!")
         break
+
 
 
 
