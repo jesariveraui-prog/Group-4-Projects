@@ -11,7 +11,7 @@ while True:
     while True:
         try:
             sub2=float(input("Enter marks in Filipino:"))
-            if sub1 < 0 or sub1 > 100:
+            if sub2 < 0 or sub2 > 100:
                 print("Only enter a number between 0 - 100")
             else:
                 break
@@ -20,7 +20,7 @@ while True:
     while True:
         try:
             sub3=float(input("Enter marks in  Earth and Life Science:"))
-            if sub1 < 0 or sub1 > 100:
+            if sub3 < 0 or sub3 > 100:
                 print("Only enter a number between 0 - 100")
             else:
                 break
@@ -29,7 +29,7 @@ while True:
     while True:
         try:
             sub4=float(input("Enter marks in  Physical Education:"))
-            if sub1 < 0 or sub1 > 100:
+            if sub4 < 0 or sub4 > 100:
                 print("Only enter a number between 0 - 100")
             else:
                 break
@@ -38,7 +38,7 @@ while True:
     while True:
         try:
             sub5=float(input("Enter marks in  Practical Research:"))
-            if sub1 < 0 or sub1 > 100:
+            if sub5 < 0 or sub5 > 100:
                 print("Only enter a number between 0 - 100")
             else:
                 break
@@ -47,7 +47,7 @@ while True:
     while True:
         try:
             sub6=float(input("Enter marks in  Oral Communication:"))
-            if sub1 < 0 or sub1 > 100:
+            if sub6 < 0 or sub6 > 100:
                 print("Only enter a number between 0 - 100")
             else:
                 break
@@ -56,7 +56,7 @@ while True:
     while True:
         try:
             sub7=float(input("Enter marks in  Contemporary Philippine Arts from the Regions:"))
-            if sub1 < 0 or sub1 > 100:
+            if sub7 < 0 or sub7 > 100:
                 print("Only enter a number between 0 - 100")
             else:
                 break
@@ -65,7 +65,7 @@ while True:
     while True:
         try:
             sub8=float(input("Enter marks in  Personal Development:"))
-            if sub1 < 0 or sub1 > 100:
+            if sub8 < 0 or sub8 > 100:
                 print("Only enter a number between 0 - 100")
             else:
                 break
@@ -74,7 +74,7 @@ while True:
     while True:
         try:
             sub9=float(input("Enter marks in  Philosophy:"))
-            if sub1 < 0 or sub1 > 100:
+            if sub9 < 0 or sub9 > 100:
                 print("Only enter a number between 0 - 100")
             else:
                 break
@@ -83,7 +83,7 @@ while True:
     while True:
         try:
             sub10=float(input("Enter marks in  Politics:"))
-            if sub1 < 0 or sub1 > 100:
+            if sub10 < 0 or sub10 > 100:
                 print("Only enter a number between 0 - 100")
             else:
                 break
@@ -92,7 +92,7 @@ while True:
     while True:
         try:
             sub11=float(input("Enter marks in  Applied Economics:"))
-            if sub1 < 0 or sub1 > 100:
+            if sub11 < 0 or sub11 > 100:
                 print("Only enter a number between 0 - 100")
             else:
                 break
@@ -101,7 +101,7 @@ while True:
     while True:
         try:
             sub12=float(input("Enter marks in  Reading and Writing:"))
-            if sub1 < 0 or sub1 > 100:
+            if sub12 < 0 or sub12 > 100:
                 print("Only enter a number between 0 - 100")
             else:
                 break
@@ -141,7 +141,3 @@ while True:
     if choice == "no":
         print("Okay, goodbye! Good luck with your studies!")
         break
-
-
-
-
