@@ -101,9 +101,10 @@ while True:
 
     else:
         print("You failed. Better luck next time!")
-    choice = input("Would you like to calculate your grades again? (yes/no): ")
+    choice = input("Would you like to calculate your grades again? (yes/no): ").lower()
     if choice == "no":
         print("Okay, goodbye! Good luck with your studies!")
         break
+
 
 
