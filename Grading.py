@@ -133,7 +133,7 @@ while True:
         print("Well tried! You got a C")
 
     elif percentage>=30:
-        print("D+")
+        print("You got a D+")
 
     else:
         print("You failed. Better luck next time!")
